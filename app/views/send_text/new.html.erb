@@ -1,0 +1,13 @@
+<%#
+# To change this template, choose Tools | Templates
+# and open the template in the editor.
+%>
+
+<%= "new.html" %>
+<%= form_for :twilio, :url => send_path do |twilio| %>
+  <%= twilio.label :mobilenuber %><br/>
+  <%= twilio.text_field :mobilenuber %><br/>
+  <%= twilio.label :message %> <br/>
+  <%= twilio.text_area :message %><br/>
+  <%= twilio.submit %>
+<% end %>

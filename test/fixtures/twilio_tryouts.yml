@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  mobilenuber: MyString
+  message: MyText
+
+two:
+  mobilenuber: MyString
+  message: MyText
